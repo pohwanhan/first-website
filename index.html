@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Poh Wan Han </title>
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/extra.css"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m9 l10">
+            <h2>Algorithms to Live By: The Computer Science of Human Decisions</h2>
+
+            <div class="row">
+              <h5>1. Optimal Stopping</h5>
+              <p>
+                When decisions are <code>&lt;irreversible&gt;</code>, time is <code>&lt;irrevocable></code> and information is <code>&lt;none></code>; how to decide how many options to consider?
+              </p>
+
+              <div class="card-panel grey lighten-5">
+                <h6 class="grey-text text-darken-2"><b>The Secretary Problem</b></h6>
+                <p>To optimise your chances for selecting the best, use</p>
+                <p><code>&lt;Look-Then-Leap&gt;</code></p>
+                <p>In [100] applicants, explore [37%] first to gather information. After which, only commit to anyone who is better than the first 37 candidates (if not take the last applicant). Selects the best candidate about 37% of the time.</p>
+                <h6 class="grey-text text-darken-2"><b>Threshold Rules </b> - have information on quantifiable characteristics (ie SATS)</h6>
+                <p>Immediately accept an applicant if he is above a certain percentile</p>
+                <pre><center>&lt;Inserts graph&gt;</center></pre>
+                Percentile changes according to number of applicants remaining in the pool.
+                <blockquote>Questions: Where to park? Who to hire? When to settle? </blockquote>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <h5>2. Explore/Exploit</h5>
+                <p>
+                  When time is <code>&lt;limited&gt;</code>
+                </p>
+
+                <div class="card-panel grey lighten-5">
+                  <h6 class="grey-text text-darken-2"><b>Multi-Armed Bandit </b></h6>
+                  <p>An optimal policy to maximise the expected discounted rewards, using</p>
+                  <p><code class="language-markup">&lt;Grittins Index></code> + <code class="language-markup">&lt;Win-Stay, Lose-Shift></code></p>
+                  <p>Gambling: Players has no knowledge and needs to decide which machine gives the most payoff. Only change until the expected pay-off is not achieved after a particular pull.</p>
+                  <pre><center>&lt;Inserts Grittins Index Table></center></pre>
+                  <h6 class="grey-text text-darken-2">
+                    <b>Regret and Optimism</b>
+                  </h6>
+                  <p>Depends on what appeals to you at that moment in time.</p>
+                  <div class="card-panel">
+                    <i>Exploration at the beginning, Exploitation as opportunities dwindles.</i>
+                    <p>Imagine a toddler, like a blank white page. He has to explore at his initial life stages; to acquire knowledge, skills. As he progresses, he will gradually decide what he wants to do. That is when he will enter the exploitation phase where he continuously</p>
+                   </div>
+                   <blockquote>
+                     "To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been"
+                   </blockquote>
+
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
+
+
+
+
+
+
+
+
+
+<div class="col hide-on-small-only m3 l2">
+  <div class="toc-wrapper">
+    <div style="height: 1px;">
+      <ul class="section table-of-contents">
+        <li><a href="#color-usage">Usage</a></li>
+        <li><a href="#sass">Sass</a></li>
+        <li><a href="#palette">Color Palette</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
